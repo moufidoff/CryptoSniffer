@@ -133,7 +133,7 @@ const AddressPage = () => {
           <FeeCard address={address} transactions={selectedTransactions} />
         </div>
         <div className="flex items-center flex-row space-x-5 mt-1.5">
-          <SupportCard address="0x07eD706146545d01Fa66A3C08ebCa8C93a0089E5" />
+          <SupportCard address="0x05A256AE5ab12f3eDdfbB60Dbee61fF3BC8d49D0" />
         </div>
         <div className="flex items-center flex-row space-x-5 mt-1.5">
           <BalanceCard address={address} onTokens={tokens} explorer={explorer} />
