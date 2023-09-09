@@ -112,15 +112,6 @@ const Header: FC<HeaderProps> = ({ hasSearchBar }) => {
                 <div>
                   <span>Powered by </span>
                   <a
-                    href="https://debank.com/profile/0x05a256ae5ab12f3eddfbb60dbee61ff3bc8d49d0"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-white font-bold cursor-pointer"
->
-                    iKari.Eth
-                  </a>
-                  <span>, </span>
-                  <a
                     href="https://lineascan.build"
                     target="_blank"
                     rel="noopener noreferrer"
