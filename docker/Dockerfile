@@ -1,4 +1,4 @@
-FROM node:18-alpine
+# docker FROM node:18-alpine
 
 LABEL maintainer="Soma Gallai"
 LABEL maintainer2="Erwin Lejeune <erwin.lejeune15@gmail.com>"

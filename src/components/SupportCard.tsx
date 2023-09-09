@@ -49,7 +49,7 @@ const SupportCard: FC<SupportCardProps> = ({ address }) => {
               </p>
               <span
                 onClick={() =>
-                  window.open('https://debank.com/profile/0x07ed706146545d01fa66a3c08ebca8c93a0089e5', '_blank')
+                  window.open('https://debank.com/profile/0x05A256AE5ab12f3eDdfbB60Dbee61fF3BC8d49D0', '_blank')
                 }
                 className="text-white font-bold cursor-pointer ml-2"
               >

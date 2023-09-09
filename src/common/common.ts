@@ -1,3 +1,4 @@
+# images
 import { Token } from "../services/explorers/explorer";
 
 const tokenPriceMap: Map<string, number> = new Map();
