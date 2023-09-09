@@ -26,7 +26,7 @@ const Header: FC<HeaderProps> = ({ hasSearchBar }) => {
     <nav className="z-10 bg-white border-b border-gray-700 dark:bg-gray-800 fixed top-0 left-0 w-full">
       <div className="max-w-screen-xl flex items-center justify-between mx-auto p-4">
         <a className="flex items-center bg" href="/">
-          <img src="trackdrop.svg" className="h-8 mr-3" alt="SnifferDrop Logo" />
+          <img src="trackdrop.svg" className="h-8 mr-3" alt="SnifferDrop Powered by iKari.Eth Logo" />
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">SnifferDrop</span>
           <a href="https://twitter.com/CryptosSniffer" target="_blank" rel="noopener noreferrer">
             {/* Twitter icon with margin */}
