@@ -2,58 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Couleur de fond du body */
 body {
-    background-color: #f7f7f7; /* Couleur de fond similaire à Debank */
+    background-color: rgb(17, 24, 39);
 }
 
-/* Couleur du texte principal */
-.text-primary {
-    color: #333; /* Couleur de texte similaire à Debank */
-}
-
-/* Couleur du texte secondaire ou de mise en surbrillance */
-.text-secondary {
-    color: #888; /* Couleur de texte secondaire similaire à Debank */
-}
-
-/* Couleur d'accentuation ou de mise en évidence */
-.accent-color {
-    color: #dd54c4; /* Couleur d'accentuation similaire à Debank */
-}
-
-/* Couleur de fond pour les éléments de mise en évidence */
-.highlight-background {
-    background-color: #dd54c4; /* Couleur de fond d'accentuation similaire à Debank */
-    color: #fff; /* Couleur du texte sur fond d'accentuation */
-}
-
-/* Style de bordure pour les éléments de mise en surbrillance */
-.highlight-border {
-    border: 1px solid #dd54c4; /* Bordure similaire à Debank */
-}
-
-/* Style pour les boutons */
-.button {
-    background-color: #dd54c4; /* Couleur de fond du bouton similaire à Debank */
-    color: #fff; /* Couleur du texte du bouton */
-    border: none;
-    padding: 10px 20px;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-/* Style pour les liens */
-.link {
-    color: #dd54c4; /* Couleur des liens similaire à Debank */
-    text-decoration: none;
-}
-
-.link:hover {
-    text-decoration: underline; /* Effet de survol similaire à Debank */
-}
-
-/* Styles de scrollbar */
 @layer utilities {
     .scrollbar::-webkit-scrollbar {
         height: 2px;
@@ -61,6 +13,6 @@ body {
     }
 
     .scrollbar::-webkit-scrollbar-thumb {
-        background: #9b9b9b; /* Couleur de la scrollbar similaire à Debank */
+        background: #9b9b9b;
     }
 }
