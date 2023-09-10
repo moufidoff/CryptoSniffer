@@ -148,27 +148,23 @@ const AddressPage = () => {
 
  return (
   <>
-    <Header hasSearchBar />
-    <div className="grid mt-20 place-items-center">
-      <div className="grid place-items-center">
-        <ChainTabs tabInfo={tabsInfos} selectedTab={selectedTab} setSelectedTab={setSelectedTab} />
-        {isLoading ? (
-          <div className="flex flex-col items-center justify-center mt-10">
+     <Header hasSearchBar />
+      <div className="grid mt-20 place-items-center">
+        <div className="grid place-items-center">
+          <ChainTabs tabInfo={tabsInfos} selectedTab={selectedTab} setSelectedTab={setSelectedTab} />
+          {isLoading ? (
+            <div className="flex flex-col items-center justify-center mt-10">
             <p className="text-gray-500 font-medium">Aggregating blockchain information, please wait...</p>
             <p className="text-gray-500 font-medium">{countdown} seconds...</p>
             <BiLoaderCircle className="animate-spin mt-4" size={80} style={{ color: '#dd54c4' }} />
           </div>
-        ) : (
-          <div className="flex items-center flex-row space-x-5 mt-1.5">{renderSelectedTabContent()}</div>
-        )}
-        
-        {/* Ajoutez le texte "Powered by iKari.Eth" en bas à gauche */}
-        <div className="text-gray-500 font-medium absolute bottom-0 left-0 mb-2 ml-2">
-          Powered by iKari.Eth
+          ) : (
+            <div className="flex items-center flex-row space-x-5 mt-1.5">{renderSelectedTabContent()}</div>
+          )}
         </div>
       </div>
-    </div>
-  </>
-);
+    </>
+  );
+};
 
 export default AddressPage;
